@@ -10,11 +10,9 @@ BLOG POST HERE: https://mohamed-fakroud.gitbook.io/red-teamings-dojo/windows-int
 ## Getting Started
 
 ### Executing program
-
-* How to run the program
-* Step-by-step bullets
 ```
-code blocks for commands
+> gcc .\comfunc.c -o com.exe -lole32 -luuid -loleaut32
+> .\com.exe C:\Windows\System32\calc.exe (The absolute path of your executable)
 ```
 
 ## Author
