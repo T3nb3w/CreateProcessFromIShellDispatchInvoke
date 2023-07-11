@@ -17,7 +17,6 @@ DEFINE_GUID(clsid, 0x13709620, 0xc279, 0x11ce, 0xa4, 0x9e, 0x44, 0x45, 0x53, 0x5
     printf("DllGetClassObject is at 0x%p\n\n", DllGetClassObject);
     
     IClassFactory *icf = NULL;
-
     hr = DllGetClassObject(&clsid, &IID_IClassFactory, (void **)&icf);
 
     if(hr != S_OK) {
