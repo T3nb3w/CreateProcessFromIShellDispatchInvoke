@@ -17,7 +17,7 @@ BLOG POST HERE: https://mohamed-fakroud.gitbook.io/red-teamings-dojo/windows-int
 code blocks for commands
 ```
 
-## Authors
+## Author
 [@t3nb3w](https://twitter.com/T3nb3w)
 
 ## Acknowledgments
