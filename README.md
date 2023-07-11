@@ -11,7 +11,7 @@ BLOG POST HERE: https://mohamed-fakroud.gitbook.io/red-teamings-dojo/windows-int
 
 ### Executing program
 ```
-> gcc .\comfunc.c -o com.exe -lole32 -luuid -loleaut32
+> gcc .\CreateProcessFromIShellDispatchInvoke.c -o com.exe -lole32 -luuid -loleaut32
 > .\com.exe C:\Windows\System32\calc.exe (The absolute path of your executable)
 ```
 
